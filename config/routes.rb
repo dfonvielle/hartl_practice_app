@@ -1,10 +1,10 @@
 HartlPracticeApp::Application.routes.draw do
-  
+
   root to: "static_pages#home"
   
-  get "humans/new"
+  get "cool_users/new"
   
-  match '/signup', :to => "humans#new"
+  match '/signup', :to => "cool_users#new"
 
   match '/help', to: 'static_pages#help'
   
