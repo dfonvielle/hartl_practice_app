@@ -2,7 +2,7 @@ HartlPracticeApp::Application.routes.draw do
 
   root to: "static_pages#home"
   
-  get "cool_users/new"
+  resources :cool_users
   
   match '/signup', :to => "cool_users#new"
 
