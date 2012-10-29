@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.2'
 gem 'jquery-rails', '2.1.3'
+gem 'taps', '0.3.24'
 
 gem 'bootstrap-sass','2.0.0'
 
